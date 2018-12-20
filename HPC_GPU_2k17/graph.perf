@@ -1,0 +1,12 @@
+# clustered graph example from Derek Bruening's CGO 2005 talk
+=cluster;CPU;GPU;GPU+mem
+# green instead of gray since not planning on printing this
+colors=black,yellow,red
+=table
+=norotate
+ylabel=Execution time
+# stretch it out in x direction
+xscale=1.2
+
+#          	      CPU GPU GPU+mem
+file1(4900)     10  5    11 
